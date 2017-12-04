@@ -17,7 +17,6 @@ public class QuickSort {
                 lower.add(numbers.get(i));
             } else {
                 higher.add(numbers.get(i));
-
             }
         }
         List<Integer> sorted = quicksort(lower);
