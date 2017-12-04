@@ -8,8 +8,8 @@ public class MergeSort {
         if (values.size() < 2) {
             return values;
         }
-        final List<Integer> leftHalf = values.subList(0, values.size() / 2);
-        final List<Integer> rightHalf = values.subList(values.size() / 2, values.size());
+        List<Integer> leftHalf = values.subList(0, values.size() / 2);
+        List<Integer> rightHalf = values.subList(values.size() / 2, values.size());
         return merge(mergesort(leftHalf), mergesort(rightHalf));
     }
 
@@ -43,7 +43,7 @@ public class MergeSort {
 
         Random random = new Random();
 
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 33; i++){
             list.add(random.nextInt(100));
         }
 

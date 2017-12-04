@@ -7,8 +7,6 @@ public class SortTests {
 
         Scanner in = new Scanner(System.in);
 
-
-
         //Bubble sort test
         System.out.println("Bubble sort test, please enter number of elements");
 

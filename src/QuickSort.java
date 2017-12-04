@@ -9,9 +9,9 @@ public class QuickSort {
         if (numbers.size() < 2) {
             return numbers;
         }
-        final Integer pivot = numbers.get(0);
-        final List<Integer> lower = new ArrayList<>();
-        final List<Integer> higher = new ArrayList<>();
+         Integer pivot = numbers.get(0);
+         List<Integer> lower = new ArrayList<>();
+         List<Integer> higher = new ArrayList<>();
         for (int i = 1; i < numbers.size(); i++) {
             if (numbers.get(i) < pivot) {
                 lower.add(numbers.get(i));
@@ -20,7 +20,7 @@ public class QuickSort {
 
             }
         }
-        final List<Integer> sorted = quicksort(lower);
+        List<Integer> sorted = quicksort(lower);
         sorted.add(pivot);
         sorted.addAll(quicksort(higher));
         return sorted;
