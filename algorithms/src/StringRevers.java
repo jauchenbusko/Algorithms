@@ -24,8 +24,6 @@ public class StringRevers {
             System.out.print(characterStack.pop());
     }
 
-
-
     public static void main(String[] args){
         System.out.println(StringRevers.reverse("oscilloscope"));
         StringRevers.reverseStack("oscilloscope");

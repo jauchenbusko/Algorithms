@@ -5,3 +5,5 @@ core/core.iml
 out/
 
 
+src/main/resources/
+src/test/

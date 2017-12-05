@@ -22,6 +22,6 @@ public class Factorial {
 
     public static void main(String[] args){
         System.out.println(Factorial.calcFactorialIteral(5));
-        System.out.println(Factorial.calcFactorialRecural(5));
+        System.out.println(Factorial.calcFactorialRecural(6));
     }
 }
