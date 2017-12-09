@@ -32,7 +32,7 @@ public class TestWithParameters {
         this.expectedMultiplication = expectedMultiplication;
         this.expectedDivision = expectedDivision;
     }
-    
+
     @Parameterized.Parameters
     public static List<Integer[]> parameters() {
         return new ArrayList<Integer[]>(3) {{

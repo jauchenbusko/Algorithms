@@ -37,7 +37,7 @@ public class FibonacciSequence {
 
         System.out.println();
 
-        FibonacciSequence.stackFibonacci(10);
+        FibonacciSequence.stackFibonacci(47);
 
     }
 }
